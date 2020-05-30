@@ -1,7 +1,17 @@
 # ROS Wrapper for Intel&reg; RealSense&trade; Devices
 These are packages for using Intel RealSense cameras (D400 series SR300 camera and T265 Tracking Module) with ROS.
-
+```
+git clone -b v2.2.13 --single-branch git://github.com/shannon112/realsense-ros.git
+```
 LibRealSense supported version: v2.33.1 (see [realsense2_camera release notes](https://github.com/IntelRealSense/realsense-ros/releases))
+```
+sudo apt install librealsense
+```
+usage
+```
+realsense-viewer
+roslaunch realsense2_camera rs_camera.launch align_depth:=true
+```
 
 ## Installation Instructions
 
