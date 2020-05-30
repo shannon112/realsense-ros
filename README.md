@@ -7,10 +7,10 @@ LibRealSense supported version: v2.33.1 (see [realsense2_camera release notes](h
 ```
 sudo apt install librealsense
 ```
-usage
+Usage
 ```
 realsense-viewer
-roslaunch realsense2_camera rs_camera.launch align_depth:=true
+roslaunch realsense2_camera rs_camera.launch align_depth:=true rviz:=1
 ```
 
 ## Installation Instructions
